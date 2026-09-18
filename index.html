@@ -1,16 +1,245 @@
 <!DOCTYPE html>
 <html>
+ <head>
+   <title> UNICORN MONIQUE  </title>
+   <link rel="stylesheet" href="style.css" />
+   <style> body {
+   background: rgba(227, 235, 169, 1);
+   color: rgb(45, 45, 45);
+   padding: 10px;
+   font-family: Arial, sans-serif;
+}
 
-<head>
-  <title>CHANGE ME</title>
-</head>
 
-<body>
-  <!-- All content goes here -->
-  <div id="all-contents">
-     
+#all-contents {
+   max-width: 800px;
+   margin: auto;
+}
 
+
+/* navigation menu */
+nav {
+   background: rgba(250, 145,236, 1);
+   margin: 0 auto;
+   padding: 10 px;
+}
+
+
+h1 {
+   display: flex;
+   align-items: center;
+   color: white;
+   flex: 1;
+   margin: 0;
+}
+
+
+#nav-ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+
+.nav-li {
+   display: inline-block;
+   padding: 0 10px;
+}
+
+
+a {
+   text-decoration: none;
+   color: #fff;
+}
+
+
+/* main container area beneath menu */
+main {
+   background: rgba(255, 196, 242, 1);
+   display: flex;
+   margin-top: 20px;
+}
+
+
+.sidebar {
+   margin-right: 24px;
+   padding: 10px;
+}
+
+
+.sidebar-img {
+   width: 200px;
+}
+
+
+.content {
+   flex: 1;
+   padding: 15px;
+}
+
+
+/* interests section styles */
+#interests {
+   border: 4px silver ridge;
+   padding: 8px;
+   margin-top: 20px;
+}
+   body {
+   background: rgba(247, 255, 190, 1);
+   color: rgb(45, 45, 45);
+   padding: 10px;
+   font-family: Arial, sans-serif;
+}
+
+
+#all-contents {
+   max-width: 800px;
+   margin: auto;
+}
+
+
+/* navigation menu */
+nav {
+   background: rgba(250, 145,236, 1);
+   margin: 0 auto;
+   padding: 10 px;
+}
+
+
+h1 {
+   display: flex;
+   align-items: center;
+   color: white;
+   flex: 1;
+   margin: 0;
+}
+
+
+#nav-ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+
+.nav-li {
+   display: inline-block;
+   padding: 0 10px;
+}
+
+
+a {
+   text-decoration: none;
+   color: #fff;
+}
+
+
+/* main container area beneath menu */
+main {
+   background: rgba(255, 196, 242, 1);
+   display: flex;
+   margin-top: 20px;
+}
+
+h2, h3 {
+   margin: 0px;
+}
+.black{
+   color: black;
+
+}
+/* Portfolio styles */
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#portfolio li {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#portfolio a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #444;
+  padding: 16px 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+#portfolio a:hover {
+  background: #000;
+  color: #fff;
+  transform: translateX(4px);
+}
+
+#portfolio a::after {
+  content: "->";
+  font-size: 0.85rem;
+  opacity: 0.4;
+  transition: opacity 0.25s ease;
+  white-space: nowrap;
+}
+
+#portfolio a:hover::after {
+  opacity: 1;
+}
+</style>
+ </head>
+
+
+ <body>
+   <!-- All content goes here -->
+<nav>
+   <h1> Monique  </h1>
+   <ul id="nav-ul">
+      <li class="nav-li"><a href="index.html"> Home </a></li>
+      <li class="nav-li"><a href="portfolio.html"> Portfolio </a></li>
+    </ul>
+  
+ </ul>
+</nav>
+<main>
+ <div class="sidebar">
+ <img class="sidebar-img src" src="https://i1.sndcdn.com/avatars-000363636545-gedvwy-t240x240.jpg">
+ </div>
+ <div class="content">
+   <h2> UNICORN </h2>
+   <P> The unicorn is a legendary creature that has been described since antiquity as a beast with a single large, pointed, spiraling horn projecting from its forehead. </p>
+   <p> Although a unicorn can technically be any one-horned animal, it is almost always referred to as that of a mythical, horse-like beast with a horn protruding from its forehea </p>
+   <div id="interest">
+        
+   </div>
+
+ <div id="interests">
+    <h3>Interests Section
+    </h3>
+    <ul>
+      <li>Ancient origins</li>
+      <li>Indus Valley</li>
+      n<li>Magical horns</li>
+       </ul>
   </div>
-</body>
+</div>
+</main>
 
+ </body>
 </html>
