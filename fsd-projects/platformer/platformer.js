@@ -5,9 +5,7 @@ $(function () {
   window.addEventListener("load", loadJson);
 
 // createPlatform
-createPlatform(500, 0, 20, 290);
-createPlatform(1350, 400, 50, 50, "red");
-createPlatform(100, 20, 10, 10, "lime"); // bright green for a finished platform
+ createPlatform(100, 20, 10, 10, "lime"); // bright green for a finished platform
 
 
 
@@ -34,18 +32,21 @@ createPlatform(100, 20, 10, 10, "lime"); // bright green for a finished platform
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+    toggleGrid();
 
 
     // TODO 2 - Create Platforms
-   
-
+   createPlatform(200, 650, 150, 50, "yellow");
+   createPlatform(400, 600, 150, 50, "yellow");
+   createPlatform(600, 550, 150, 50, "yellow");
+   createPlatform(850, 500, 150, 50, "yellow");
 
 
 
 
     // TODO 3 - Create Collectables
-   
+   createCollectable("steve", 1350, 50);
+   createCollectable("diamond", 200, 170, 0.5, 0.7);
 
 
 
@@ -53,7 +54,6 @@ createPlatform(100, 20, 10, 10, "lime"); // bright green for a finished platform
     
     // Cannons
    
-
     
     
     //////////////////////////////////
