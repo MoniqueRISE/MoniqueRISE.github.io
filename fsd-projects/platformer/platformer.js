@@ -5,7 +5,7 @@ $(function () {
   window.addEventListener("load", loadJson);
 
 // createPlatform
- createPlatform(100, 20, 10, 10, "lime"); // bright green for a finished platform
+
 
 
 
@@ -23,7 +23,7 @@ $(function () {
 
     // Create walls - do not delete or modify this code
     createPlatform(-50, -50, canvas.width + 100, 50); // top wall
-    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "rgb(118, 0, 233)"); // bottom wall
+    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "rgb(237, 237, 237)"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
 
@@ -37,11 +37,10 @@ $(function () {
 
     // TODO 2 - Create Platforms
    createPlatform(200, 650, 150, 50, "yellow");
-   createPlatform(400, 600, 150, 50, "yellow");
-   createPlatform(600, 550, 150, 50, "yellow");
-   createPlatform(850, 500, 150, 50, "yellow");
+   createPlatform(300, 530, 150,50, "yellow");
+  
 
-
+   
 
 
     // TODO 3 - Create Collectables
